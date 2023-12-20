@@ -37,5 +37,6 @@ game_kb = ReplyKeyboardMarkup(
     keyboard=[[button_1],
               [button_2],
               [button_3]],
+    one_time_keyboard=True,
     resize_keyboard=True
 )
